@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"moduleResolution": "node",
 		"module": "es2020",
-		"lib": ["es2020", "DOM", "WebWorker"],
+		"lib": ["es2020", "DOM"],
 		"target": "es2019",
 		"importsNotUsedAsValues": "error",
 		"isolatedModules": true,
@@ -11,11 +11,11 @@
 		"emitDecoratorMetadata": true,
 		"sourceMap": true,
 		"esModuleInterop": true,
-		"skipLibCheck": true,
+		"skipLibCheck": false,
 		"forceConsistentCasingInFileNames": true,
 		"strict": true,
 		"strictNullChecks": true,
-		"typeRoots": ["node_modules/@types"],
+		"typeRoots": ["node_modules/@types", "types"],
 		"baseUrl": ".",
 		"allowJs": true,
 		"checkJs": true
