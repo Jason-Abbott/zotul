@@ -1,0 +1,3 @@
+[submodule "zotero-schema"]
+	path = zotero-schema
+	url = https://github.com/zotero/zotero-schema

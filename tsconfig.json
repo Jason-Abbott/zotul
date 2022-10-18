@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"module": "es2020",
+		"lib": ["es2020", "DOM", "WebWorker"],
+		"target": "es2019",
+		"importsNotUsedAsValues": "error",
+		"isolatedModules": true,
+		"resolveJsonModule": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"strictNullChecks": true,
+		"typeRoots": ["node_modules/@types"],
+		"baseUrl": ".",
+		"allowJs": true,
+		"checkJs": true
+	},
+	"include": ["**/*.ts"]
+}

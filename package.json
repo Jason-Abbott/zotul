@@ -1,0 +1,33 @@
+{
+	"name": "zotul",
+	"version": "1.0.2",
+	"description": "Continuous integration of Zotero translators",
+	"main": "index.js",
+	"scripts": {
+		"test": "teslint .",
+		"lint": "teslint",
+		"lint:linter": "eslint --no-ignore .ci"
+	},
+	"author": "Jason Abbott",
+	"license": "CC0-1.0",
+	"repository": {
+		"url": "https://github.com/zotero/translators/blob/master/.ci/"
+	},
+	"devDependencies": {
+		"@types/eslint": "*",
+		"@types/prettier": "^2.6.0",
+		"@types/sinon": "^10.0.11",
+		"@typescript-eslint/eslint-plugin": "^5.22.0",
+		"@typescript-eslint/parser": "^5.22.0",
+		"@zotero/utilities": "https://github.com/zotero/utilities.git",
+		"eslint": "^8.14.0",
+		"eslint-config-prettier": "^8.5.0",
+		"nyc": "^15.1.0",
+		"prettier": "^2.6.2",
+		"sinon": "^13.0.2",
+		"tslib": "^2.4.0",
+		"tsm": "^2.2.1",
+		"typescript": "^4.6.4",
+		"uvu": "^0.5.3"
+	}
+}
