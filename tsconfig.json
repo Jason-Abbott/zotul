@@ -5,20 +5,17 @@
 		"lib": ["es2020", "DOM"],
 		"target": "es2019",
 		"importsNotUsedAsValues": "error",
-		"isolatedModules": true,
 		"resolveJsonModule": true,
 		"experimentalDecorators": true,
 		"emitDecoratorMetadata": true,
-		"sourceMap": true,
 		"esModuleInterop": true,
 		"skipLibCheck": false,
 		"forceConsistentCasingInFileNames": true,
 		"strict": true,
 		"strictNullChecks": true,
 		"typeRoots": ["node_modules/@types", "types"],
-		"baseUrl": ".",
 		"allowJs": true,
 		"checkJs": true
 	},
-	"include": ["**/*.ts"]
+	"include": ["src/*.ts"]
 }
